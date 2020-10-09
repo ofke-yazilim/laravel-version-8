@@ -1,8 +1,8 @@
 ## Nasıl Çalışır
-- Kütüphaneler Yükleniyor : composer update
-- php artisan key:generate
+- Kütüphaneler Yükleniyor : <strong>composer update</strong>
+- <strong>php artisan key:generate</strong>
 - Database oluşturmak için :      <strong>php artisan migrate</strong>
-- Admin user eklemek için seed :  php artisan db:seed --class=UserSeeder
+- Admin user eklemek için seed :  <strong>php artisan db:seed --class=UserSeeder</strong>
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
