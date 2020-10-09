@@ -1,5 +1,6 @@
 ## Nasıl Çalışır
 - Kütüphaneler Yükleniyor : composer update
+- php artisan key:generate
 - Database oluşturmak için :      php artisan migrate
 - Admin user eklemek için seed :  php artisan db:seed --class=UserSeeder
 
