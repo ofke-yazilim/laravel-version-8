@@ -1,3 +1,6 @@
+<p align="center">
+    Laravel 8 ve php 7.4 kullanılarak MAMP local server üzerinde geliştirilmiştir. Proje clone edildikten sonra aşağıdaki commandlar çalıştırılır ve proje çalışır hale getirilir.
+</p>
 ## Nasıl Çalışır
 - Kütüphaneler Yükleniyor : <strong>composer update</strong>
 - <strong>php artisan key:generate</strong>
