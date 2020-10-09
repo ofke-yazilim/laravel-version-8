@@ -8,6 +8,16 @@
 - Database oluşturmak için :      <strong>php artisan migrate</strong>
 - Admin user eklemek için seed :  <strong>php artisan db:seed --class=UserSeeder</strong>
 
+## Kısaca
+<p>
+   Basit mantıkta bir eticaret yapısı düzenlenmiştir. Yönetim panelinde ürün ekleme, silme, güncelleme ; sipariş görme ,onaylama ve silme işlemleri yapılmaktadır.
+    Kullanıcı arayüz tarafında ise ürün listeleme,sipariş detayı görüntüleme,sipariş verme vb. işlemler yapılabilmektedir. Her iki arayüz için farklı kullanıcı giriş sayfaları mevcuttur.
+</p>
+
+## Proje Ne içeriyor
+- İki adet guard içermektedir. Admin için kodlanan guard service provider kullanılarak hazırlanmıştır.
+- Migration ve seed yapıları kullanılmıştır.
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
