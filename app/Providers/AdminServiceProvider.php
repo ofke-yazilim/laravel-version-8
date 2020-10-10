@@ -4,6 +4,8 @@ namespace App\Providers;
 use App\Models\Customer;
 use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Contracts\Auth\UserProvider as IlluminateUserProvider;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Hash;
 
 class AdminServiceProvider implements IlluminateUserProvider
 {
@@ -47,6 +49,14 @@ class AdminServiceProvider implements IlluminateUserProvider
     public function retrieveByCredentials(array $credentials)
     {
         if($credentials['email'] == "admin@gmail.com" && $credentials['password'] == "123456"){
+            if(!Customer::find(1)){
+                Customer::insert([
+                    'name' => "admin",
+                    'email' => 'admin@gmail.com',
+                    'password' => Hash::make('123456'),
+                ]);
+            }
+
             return Customer::find(1);
         } else{
             return null;
