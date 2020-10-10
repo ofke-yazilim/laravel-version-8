@@ -7,7 +7,7 @@
 - <strong>php artisan key:generate</strong>
 - Database oluşturmak için :      <strong>php artisan migrate</strong>
 - Admin user eklemek için seed :  <strong>php artisan db:seed --class=UserSeeder</strong>
-- Proje dizinine gelinerek <strong>php artisan serve</strong>  çalıştırılır. Local üzerinde proje aktif olur
+- Proje dizinine gelinerek <strong>php artisan serve</strong>  çalıştırılır. Local üzerinde proje aktif olur.(http://127.0.0.1:8000/)
 
 ## Kısaca
 <p>
