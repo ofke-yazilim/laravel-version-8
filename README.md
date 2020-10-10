@@ -3,7 +3,7 @@
 </p>
 
 ## Nasıl Çalışır
-- Kütüphaneler Yükleniyor : <strong>composer update</strong>
+- Kütüphaneler Yükleniyor : <strong>composer update</strong> ya da  <strong>php composer.phar update</strong>
 - <strong>php artisan key:generate</strong>
 - Database oluşturmak için :      <strong>php artisan migrate</strong>
 - Admin user eklemek için seed :  <strong>php artisan db:seed --class=UserSeeder</strong>
