@@ -15,7 +15,8 @@
 @section('content')
     <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="/">Anasayfa</a></li>
+            <li class="breadcrumb-item"><a href="/">Proje Anasayfa</a></li>
+            <li class="breadcrumb-item"><a href="/dashboard">Frontent Anasayfa</a></li>
             <li class="breadcrumb-item active" aria-current="page">Ürün Listesi</li>
         </ol>
     </nav>

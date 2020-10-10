@@ -11,8 +11,10 @@
 
     <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="/admin">Anasayfa</a></li>
-            <li class="breadcrumb-item active" aria-current="page">Ürün Ekle</li>
+            <li class="breadcrumb-item"><a href="/">Proje Anasayfa</a></li>
+            <li class="breadcrumb-item"><a href="/admin">Admin Anasayfa</a></li>
+            <li class="breadcrumb-item"><a href="/admin/products">Ürün Listesi</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Ürün Düzenle</li>
         </ol>
     </nav>
     <form action="{{ route("admin.products.update",['product'=>$product->id]) }}" method="POST">
