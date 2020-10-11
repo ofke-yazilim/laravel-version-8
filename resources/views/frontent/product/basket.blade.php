@@ -50,6 +50,7 @@
         <input type="hidden" name="basket" value="{{ $basket->id ?? "" }}">
         <input type="hidden" name="total" value="{{ $total }}">
         <button type="submit" style="float: right;margin-top: 10px;" class="btn btn-success">Siparişi Tamamla</button>
+        <a href="/dashboard"  style="float: left;color: #ffffff;" class="btn btn-info">Alışverişe Devam et</a>
     </form>
 
 @endsection
