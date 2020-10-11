@@ -56,7 +56,7 @@ class FrontentController extends Controller
             foreach ($basket as $product){
                 $op = OrderProduct::create([
                     'order_id'=>$order->id,
-                    'product_id'=>$product->id,
+                    'product_id'=>$product->product_id,
                     'product_price'=>$product->product->price,
                     'quantity'=>$product->quantity
                 ]);
