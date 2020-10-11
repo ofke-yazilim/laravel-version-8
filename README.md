@@ -2,6 +2,9 @@
     Laravel 8 ve php 7.4 kullanılarak MAMP local server üzerinde geliştirilmiştir. Proje clone edildikten sonra aşağıdaki commandlar çalıştırılır ve proje çalışır hale getirilir.
 </p>
 
+## İnternet Üzerinde Gör
+<a href="http://laravel.okesmez.com/">http://laravel.okesmez.com/</a>
+
 ## Nasıl Çalışır
 - Kütüphaneler Yükleniyor : <strong>composer update</strong> ya da  <strong>php composer.phar update</strong>
 - <strong>php artisan key:generate</strong>
