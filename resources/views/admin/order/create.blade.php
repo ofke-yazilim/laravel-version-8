@@ -17,6 +17,10 @@
             <li class="breadcrumb-item active" aria-current="page">Ürün Ekle</li>
         </ol>
     </nav>
+    <a href="/admin/logout" class="btn btn-danger btn-lg">
+        Logout
+    </a>
+    <hr>
     <form action="{{ route("admin.products.store") }}" method="POST">
         @csrf
         <div class="form-group">

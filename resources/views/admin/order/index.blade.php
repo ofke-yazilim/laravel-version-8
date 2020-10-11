@@ -15,6 +15,10 @@
             <li class="breadcrumb-item active" aria-current="page">Sipariş Listesi</li>
         </ol>
     </nav>
+    <a href="/admin/logout" class="btn btn-danger btn-lg">
+        Logout
+    </a>
+    <hr>
     @include("admin.layouts.messages")
     <div class="list-group" style="margin-top: 20px;">
         @if($orders->count()>0)

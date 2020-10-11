@@ -17,6 +17,10 @@
             <li class="breadcrumb-item active" aria-current="page">Sipariş Detayı</li>
         </ol>
     </nav>
+    <a href="/admin/logout" class="btn btn-danger btn-lg">
+        Logout
+    </a>
+    <hr>
     <form action="{{ route("admin.orders.update",['order'=>$order->id]) }}" method="POST">
         <strong>Siparişi  Veren : </strong> {{ $order->user->name }}<br>
         <strong>Siparişi  Tarihi : </strong> {{ $order->created_at }}<br>

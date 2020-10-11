@@ -15,6 +15,10 @@
             <li class="breadcrumb-item active" aria-current="page">Ürün Listesi</li>
         </ol>
     </nav>
+    <a href="/admin/logout" class="btn btn-danger btn-lg">
+        Logout
+    </a>
+    <hr>
     @include("admin.layouts.messages")
     <a href="/admin/products/create" type="button" class="btn btn-info">Yeni Ürün Ekle</a>
     <div class="list-group" style="margin-top: 20px;">

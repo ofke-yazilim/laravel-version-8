@@ -17,6 +17,10 @@
             <li class="breadcrumb-item active" aria-current="page">Ürün Düzenle</li>
         </ol>
     </nav>
+    <a href="/admin/logout" class="btn btn-danger btn-lg">
+        Logout
+    </a>
+    <hr>
     <form action="{{ route("admin.products.update",['product'=>$product->id]) }}" method="POST">
         @method('PUT')
         @csrf

@@ -27,6 +27,7 @@ Route::middleware([\App\Http\Middleware\CheckUser::class])->prefix('frontent')->
 
 Route::get('/admin/login', '\App\Http\Controllers\Auth\AdminLoginController@showLoginForm')->name('admin.login');
 Route::post('/admin/login', '\App\Http\Controllers\Auth\AdminLoginController@login')->name('admin.login.submit');
+Route::get('/admin/logout', '\App\Http\Controllers\Auth\AdminLoginController@logout')->name('admin.logout');
 
 Route::middleware([\App\Http\Middleware\CheckAdmin::class])->prefix('admin')->name('admin.')->group(function () {
     Route::get('/', function () {

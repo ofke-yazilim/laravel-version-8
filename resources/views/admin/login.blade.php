@@ -8,6 +8,14 @@
 @endsection
 
 @section('content')
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="/">Proje Anasayfa</a></li>
+            <li class="breadcrumb-item"><a href="/admin">Admin Anasayfa</a></li>
+            <li class="breadcrumb-item"><a href="/dashboard">Frontent Anasayfa</a></li>
+        </ol>
+    </nav>
+    <hr>
     <form action="{{ route('admin.login.submit') }}" method="POST">
         @csrf
         <div class="form-group">
