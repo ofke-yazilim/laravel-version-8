@@ -35,8 +35,8 @@
         <li><a href="/logout">Logout</a></li>
     </ul>
     @endif
-    <div class="alert alert-info" role="alert">
-        Aşağıda listelenmiş olan ürünlerden istediğiniz ürünün adetini yazarak sepete ekleyebilirsiniz.
+    <div class="alert alert-warning" role="alert">
+        Aşağıdaki listeden istediğiniz ürünün adetini yazarak sepete ekleyebilirsiniz. Sepete ekleme işlemi için login olmanız gereklidir.
     </div>
     <div class="list-group" style="margin-top: 20px;">
         @if($products->count()>0)
