@@ -24,7 +24,7 @@
         @if($orders->count()>0)
             @foreach($orders as $order)
                 <li style="list-style: none;float: left;position: relative">
-                    <a href="{{ route("admin.orders.update",["order"=>$order->id]) }}" class="list-group-item list-group-item-action">
+                    <a href="{{ route("admin.orders.edit",["order"=>$order->id]) }}" class="list-group-item list-group-item-action">
                         {{ $order->user->name }} - {{ $order->created_at }}
                     </a>
                     <a href="{{ route("admin.orders.edit",["order"=>$order->id]) }}" type="button" class="btn btn-warning" style="right:60px; position: absolute;z-index: 10000;top: 5px;">
