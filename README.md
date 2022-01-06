@@ -3,7 +3,7 @@
 </p>
 
 ## İnternet Üzerinde Gör
-<a href="http://laravel.okesmez.com/">http://laravel.okesmez.com/</a>
+<a href="http://laravel.okesmez.com/">https://v8.okesmez.com/</a>
 
 ## Nasıl Çalışır
 - Kütüphaneler Yükleniyor : <strong>composer update</strong> ya da  <strong>php composer.phar update</strong>
